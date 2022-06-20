@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Jua&family=Nanum+Gothic&display=swap');
+
+* {
+    margin: 0px;
+}
+
+html {
+    font-size: 10px;
+    background-color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+
+#maincont {
+    width: 1160px;
+    height: 758px;
+}
+
+header {
+    width: 100%;
+    height: 333;
+}
+
+#header1 {
+    width: 572px;
+    height: 277px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 186px;
+    height: 154px;
+    margin: 0 auto;
+}
+
+#title {
+    width: 328px;
+    height: 48px;
+    margin: 0px auto 0 auto;
+
+}
+
+#nav {
+    width: 1160px;
+    height: 56px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: 4;
+}
+
+#navcont {
+    width: 572px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 139px;
+    height: 56px;
+    font-size: 1.2rem;
+    color: black;
+    transition-duration: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mesqu {
+    width: 88px;
+    height: 56px;
+    position: relative;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.1s;
+    background-color: white;
+}
+
+.mecir1 {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    transition-duration: 0.1s;
+    background-color: white;
+}
+
+.mecir2 {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    transition-duration: 0.1s;
+    background-color: white;
+}
+
+.index1 {
+    width: 139px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.index0 {
+    width: 139px;
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+hr {
+    position: absolute;
+    top: 428px;
+    width: 1160px;
+    background-color: red;
+}
+
+.text-ma {
+    font-family: 'Nanum Gothic';
+}
+
+div {
+    border: 0px solid black;
+    margin: auto;
+
+    position: relative;
+}
+
+#frame-1 {
+    border: 0px solid blue;
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    width: 1440px;
+    height: 1100px;
+}
+
+#img-frame {
+    /* 이미지 기본 설정 건드릴 거 없음 */
+    position: absolute;
+
+    /* 마찬가지로 0px 수정하면 영역 보임 */
+    border: 0px solid red;
+}
+
+#text-frame {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    border: 0px solid green;
+    font-family: 'Nanum Gothic';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#img-background {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 1160px;
+
+}
